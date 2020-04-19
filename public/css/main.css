@@ -6,8 +6,33 @@
 	box-sizing: border-box;
 }
 
+/* HEADER */
 
+.header {
+	position: fixed;
+	background: white;
+	width: 100%;
+	height: 64px;
+}
 
+.header__container {
+	background: white;
+	max-width: 750px;
+	margin: 0 auto;
+	padding: 10px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__container a {
+	margin: auto 0;
+}
+
+@media (max-width: 360px) {
+	.header__container {
+		width: 350px;
+	}
+}
 
 
 
